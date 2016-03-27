@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="RESTWebServices">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="jsr311-api-1.1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Mihika/Documents/Dependency_JARS/jersey-archive-1.19.1/lib/jsr311-api-1.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-server-1.19.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Mihika/Documents/Dependency_JARS/jersey-archive-1.19.1/lib/jersey-server-1.19.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-servlet-1.19.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Mihika/Documents/Dependency_JARS/jersey-archive-1.19.1/lib/jersey-servlet-1.19.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-jaxrs-1.9.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Mihika/Documents/Dependency_JARS/jersey-archive-1.19.1/lib/jackson-jaxrs-1.9.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-json-1.19.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Mihika/Documents/Dependency_JARS/jersey-archive-1.19.1/lib/jersey-json-1.19.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-core-1.19.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Mihika/Documents/Dependency_JARS/jersey-archive-1.19.1/lib/jersey-core-1.19.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jettison-1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Mihika/Documents/Dependency_JARS/jersey-archive-1.19.1/lib/jettison-1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-core-asl-1.9.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Mihika/Documents/Dependency_JARS/jersey-archive-1.19.1/lib/jackson-core-asl-1.9.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-xc-1.9.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Mihika/Documents/Dependency_JARS/jersey-archive-1.19.1/lib/jackson-xc-1.9.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jersey-client-1.19.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Mihika/Documents/Dependency_JARS/jersey-archive-1.19.1/lib/jersey-client-1.19.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jackson-mapper-asl-1.9.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/Mihika/Documents/Dependency_JARS/jersey-archive-1.19.1/lib/jackson-mapper-asl-1.9.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="RESTWebServices"/>
+        <property name="java-output-path" value="/RESTWebServices/build/classes"/>
+    </wb-module>
+</project-modules>
